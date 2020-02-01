@@ -1,0 +1,25 @@
+.header {
+    background-color: $palette_primary;
+    padding: 10px 0;
+    &__link {
+        color: rgba($palette_primary-lg, 0.7);
+        padding: 5px 10px;
+        border-bottom: none;
+        font-size: .8em;
+        border-right: 1px solid rgba($palette_primary-lg, 0.3);
+        &:hover {
+            color: rgba($palette_primary-lg, 1);
+        }
+        &:nth-last-of-type(1) {
+            border-right: none;
+        }
+        svg {
+            margin-right: 10px;
+        }
+        @media($xsmall) {
+            span {
+                display: none;
+            }
+        }
+    }
+}
