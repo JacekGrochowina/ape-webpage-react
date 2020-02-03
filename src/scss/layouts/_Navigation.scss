@@ -1,0 +1,93 @@
+/* Vars */
+
+    $navHeight: 80px;
+    $navBackgroundColor: $palette_primary-lg;
+    $navHamburgerColor: $palette_primary;
+
+.nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $navBackgroundColor;
+    a {
+        border-bottom: none;
+    }
+    &__container {
+        justify-content: space-between;
+        align-items: center;
+        max-height: $navHeight;
+        overflow: hidden;
+        // transition-property: max-height;
+        // transition-duration: .2s;
+        transition: max-height .2s;
+        &.is-active {
+            max-height: 330px;
+        }
+    }
+    .wraper {
+        flex-grow: 1;
+        justify-content: space-between;
+        align-items: center;
+        height: $navHeight;
+        .hamburger {
+            display: none;
+            @media($medium) {
+                display: block;
+            }
+            &-inner {
+                background-color: $navHamburgerColor;
+                &::before, &::after {
+                    background-color: $navHamburgerColor;
+                }
+            }
+            &.is-active .hamburger-inner {
+                background-color: $navHamburgerColor;
+                &::before, &::after {
+                    background-color: $navHamburgerColor;
+                }
+            }
+        }
+    }
+    &__logo {
+        display: block;
+        max-width: 150px;
+    }
+    &__image {
+        display: block;
+        width: 100%;
+    }
+    &__list {
+        opacity: 0;
+        transition-property: opacity;
+        transition-duration: .2s;
+        &.is-active {
+            opacity: 1;
+        }
+        @media($medium) {
+            flex-direction: column;
+        }
+    }
+    &__link {
+        display: block;
+        padding: 20px;
+        font-family: $font_family;
+        font-weight: $font_weight-bold;
+        text-transform: capitalize;
+        color: $palette_primary-dr;
+        letter-spacing: 1px;
+    }
+    @media($medium) {
+        &__logo,
+        &__list {
+            width: 100%;
+            text-align: center;
+        }
+        &__item {
+            border-bottom: 1px solid rgba($palette_primary-dr, 0.25);
+            &:nth-of-type(1) {
+                border-top: 1px solid rgba($palette_primary-dr, 0.25);
+            }
+        }
+    }
+}
