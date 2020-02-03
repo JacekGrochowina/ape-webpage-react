@@ -1,6 +1,7 @@
 .header {
     background-color: $palette_primary;
     padding: 10px 0;
+    font-family: $font_family-basic;
     &__link {
         color: rgba($palette_primary-lg, 0.7);
         padding: 5px 10px;
@@ -17,6 +18,9 @@
             margin-right: 10px;
         }
         @media($xsmall) {
+            svg {
+                margin-right: 0;
+            }
             span {
                 display: none;
             }
