@@ -1,6 +1,6 @@
 body, input, select, textarea {
     color: $palette_primary-lg;
-    font-family: $font_family;
+    font-family: $font_family-basic;
     font-size: 16px;
     font-weight: $font_weight-regular;
     @media ($small) {
