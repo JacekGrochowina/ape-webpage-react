@@ -21,8 +21,9 @@
 
 // Font.
 
-    $font_family: 'Open Sans', sans-serif;
-    $font_family-heading: 'Source Sans Pro', sans-serif;
+    $font_family: 'Raleway', sans-serif;
+    $font_family-basic: 'Open Sans', sans-serif;
+    $font_family-heading: 'Roboto Condensed', sans-serif;
     $font_weight-regular: 400;
     $font_weight-bold: 600;
     $font_weight-heading: 700;
@@ -30,5 +31,5 @@
 // Palette.
 
     $palette_primary: #611a19;
-    $palette_primary-lg: #FFFFFF;
-    $palette_bg: #333333;
+    $palette_primary-lg: #F0F0F0;
+    $palette_primary-dr: #4E4E4E;
