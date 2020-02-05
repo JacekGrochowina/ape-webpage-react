@@ -745,7 +745,6 @@ hr {
   }
 }
 
-/* Vars */
 .nav {
   position: -webkit-sticky;
   position: sticky;
@@ -823,18 +822,6 @@ hr {
 .nav__image {
   display: block;
   width: 100%;
-}
-
-.nav__list {
-  opacity: 0;
-  -webkit-transition-property: opacity;
-  transition-property: opacity;
-  -webkit-transition-duration: .2s;
-          transition-duration: .2s;
-}
-
-.nav__list.is-active {
-  opacity: 1;
 }
 
 @media (max-width: 980px) {
