@@ -40,7 +40,7 @@ class App extends Component {
           {<Navigation />}
 
           <main>
-            {/* {<Page />} */}
+            {<Page />}
           </main>
 
           <footer>
