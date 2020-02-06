@@ -10,6 +10,7 @@
     left: 0;
     right: 0;
     background-color: $navBackgroundColor;
+    z-index: 1000;
     a {
         border-bottom: none;
     }
