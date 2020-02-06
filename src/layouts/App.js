@@ -6,6 +6,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
   faChevronLeft,
+  faChevronRight,
   faMobileAlt,
   faEnvelope,
   faMapMarkerAlt,
@@ -18,7 +19,7 @@ import '../styles/main.css';
 import Header from './Header';
 import Navigation from './Navigation';
 import Page from './Page';
-import Footer from './Footer';
+// import Footer from './Footer';
 
 class App extends Component {
 
@@ -27,6 +28,7 @@ class App extends Component {
     library.add(
       fab,
       faChevronLeft,
+      faChevronRight,
       faMobileAlt,
       faEnvelope,
       faMapMarkerAlt,
