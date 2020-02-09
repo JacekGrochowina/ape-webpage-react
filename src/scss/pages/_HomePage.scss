@@ -1,0 +1,11 @@
+.home {
+    &__container {
+        max-width: $size_container-width-shrink;
+        &--about {
+            text-align: center;
+        }
+    }
+    &__p {
+        margin-bottom: 3em;
+    }
+}
