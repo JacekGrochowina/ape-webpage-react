@@ -10,6 +10,9 @@ import {
   faMobileAlt,
   faEnvelope,
   faMapMarkerAlt,
+  faMapMarkedAlt,
+  faClock,
+  faDollarSign
 } from '@fortawesome/free-solid-svg-icons';
 
 /* Styles */
@@ -19,7 +22,7 @@ import '../styles/main.css';
 import Header from './Header';
 import Navigation from './Navigation';
 import Page from './Page';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 class App extends Component {
 
@@ -32,6 +35,9 @@ class App extends Component {
       faMobileAlt,
       faEnvelope,
       faMapMarkerAlt,
+      faMapMarkedAlt,
+      faClock,
+      faDollarSign
     );
 
     return (
@@ -46,7 +52,7 @@ class App extends Component {
           </main>
 
           <footer>
-            {/* {<Footer />} */}
+            {<Footer />}
           </footer>
 
         </div>
