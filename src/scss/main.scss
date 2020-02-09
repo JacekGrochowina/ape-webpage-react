@@ -19,7 +19,13 @@
 
     @import 'layouts/Header';
     @import 'layouts/Navigation';
+    @import 'layouts/Footer';
 
 // Components.
 
     @import 'components/Swiper';
+    @import 'components/Button';
+
+// Pages.
+
+    @import 'pages/HomePage';
