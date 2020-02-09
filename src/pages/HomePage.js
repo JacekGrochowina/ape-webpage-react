@@ -1,5 +1,6 @@
 import React from 'react';
 import SwiperMain from '../components/SwiperMain';
+import Button from '../components/Button';
 
 /* Images to Swiper */
 import Bg1 from '../images/slider/1.jpg';
@@ -14,6 +15,7 @@ import Bg9 from '../images/slider/9.jpg';
 
 const HomePage = () => {
 
+    /* Data of Swiper */
     const swiperData = [
         {
             id: 1,
@@ -71,10 +73,22 @@ const HomePage = () => {
         },
     ]
 
+    /*  */
+
     return (
         <div className="home">
             <SwiperMain data={swiperData} />
-            <h1>HomePage</h1>
+
+            <section>
+                <div className="container home__container home__container--about">
+
+                    <p className="home__p"><strong>Firma APE</strong> to dynamicznie rozwijające się przedsiębiorstwo oferujące <strong>szeroki wachlarz usług</strong> serwisowych i instalacyjnych.
+Podstawowy zakres naszych działań to wszelkiego rodzaju prace związane z szeroko pojętą automatyką, automatyzacją linii produkcyjnych, ciągów technologicznych, maszyn i urządzeń, instalacji grzewczych, instalacji chłodu technologicznego, wentylacji, detekcji gazu itp.</p>
+                    <Button link="/oferta" text="zobacz ofertę" />
+
+                </div>
+            </section>
+
         </div>
     )
 }
