@@ -1,5 +1,5 @@
 body, input, select, textarea {
-    color: $palette_primary-lg;
+    color: $palette_primary-dr;
     font-family: $font_family-basic;
     font-size: 16px;
     font-weight: $font_weight-regular;
@@ -11,19 +11,25 @@ body, input, select, textarea {
     }
 }
 
+::selection {
+    background-color: rgba($palette_primary-bright, 0.4);
+}
+
 a {
-    border-bottom: dotted 1px;
     color: $palette_primary;
     text-decoration: none;
 }
 
 strong, b {
-    color: $palette_primary;
+    color: $palette_primary-bright;
     font-weight: $font_weight-bold;
 }
 
 p {
+    font-family: $font_family;
     margin: 0 0 1em 0;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 em, i {
@@ -93,6 +99,13 @@ h6 {
     }
 }
 
+h1.header {
+    font-family: $font_family;
+    font-size: 2.7em;
+    font-weight: 600;
+    color: $palette_primary-lg;
+}
+
 sub {
     font-size: 0.8em;
     position: relative;
@@ -112,6 +125,10 @@ blockquote {
     padding: .5em 0 .5em 2em;
 }
 
+section {
+    padding: 5em 0;
+}
+
 hr {
     border: 0;
     border-bottom: solid 1px $palette_primary;
@@ -123,4 +140,12 @@ hr {
     max-width: $size_container-width;
     margin: 0 auto;
     padding: 0 $size_container-padding;
+}
+
+.alg-center {
+    text-align: center;
+}
+
+.marg-t {
+    margin-top: 2em;
 }
