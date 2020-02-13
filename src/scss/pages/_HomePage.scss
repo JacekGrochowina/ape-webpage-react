@@ -1,9 +1,37 @@
 .home {
     &__container {
-        max-width: $size_container-width-shrink;
         &--about {
+            max-width: $size_container-width-shrink;
             text-align: center;
         }
+        &--services {
+            justify-content: space-around;
+            max-width: $size_container-width-extend;
+        }
+    }
+    &__service {
+        padding: 10px;
+        max-width: 160px;
+        &-icon {
+            display: block;
+            margin: auto;
+            width: 80%;
+            padding: 15px;
+            border-radius: 15px;
+            border: 2px solid $palette_primary-bright;
+            &-title {
+                text-align: center;
+                padding: 1.5em 0 1em;
+                font-family: $font_family-heading;
+                font-weight: $font_weight-regular;
+                font-size: 1.05em;
+                color: $palette_primary-dr;
+            }
+        }
+    }
+    &__parallax {
+        height: 50vh;
+        overflow: hidden;
     }
     &__p {
         margin-bottom: 3em;
