@@ -140,6 +140,9 @@ hr {
     max-width: $size_container-width;
     margin: 0 auto;
     padding: 0 $size_container-padding;
+    &--extend {
+        max-width: 1600px;
+    }
 }
 
 .alg-center {
