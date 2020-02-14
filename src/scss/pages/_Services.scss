@@ -1,0 +1,64 @@
+//  Vars
+
+    $servicesTilesHeight: calc(100vh - #{$navHeight} - 43px);
+    @mixin transition($property, $duration) {
+        transition-property: $property;
+        transition-duration: $duration;
+    }
+
+.services {
+    min-height: $servicesTilesHeight;
+    background-color: $palette_primary;
+    &__wraper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: calc(#{$servicesTilesHeight} / 3);
+        @include transition(filter, .25s);
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            opacity: 0;
+            background-color: rgba($palette_primary-bright, 0.5);
+
+            @include transition(opacity, .25s);
+        }
+        &:hover::before {
+            opacity: 1;
+            z-index: 0;
+        }
+        &:hover .services__title {
+            transform: translateX(20px);
+        }
+        &:hover .services__title::before {
+            width: 60%;
+        }
+    }
+    &__title {
+        position: relative;
+        padding: 0.5em 0.5em 1.5em 1em;
+        font-size: 2em !important;
+        max-width: 400px;
+        z-index: 1;
+        transform: translateX(0);
+        @include transition(transform, .25s);
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 1em;
+            left: 0.5em;
+            width: 0;
+            height: 2px;
+            background-color: $palette_primary-lg;
+            @include transition(width, .25s);
+        }
+    }
+}
