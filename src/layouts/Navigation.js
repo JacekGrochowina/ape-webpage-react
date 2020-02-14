@@ -8,7 +8,7 @@ const navList = [
     { name: "domowa", path: "/", exact: true },
     { name: "oferta", path: "/oferta" },
     { name: "realizacje", path: "/realizacje" },
-    { name: "kontakt", path: "/#contact" },
+    { name: "kontakt", path: "/kontakt" },
 ]
 
 class Navigation extends Component {
