@@ -99,11 +99,12 @@ h6 {
     }
 }
 
-h1.header {
+.title {
     font-family: $font_family;
     font-size: 2.7em;
     font-weight: 600;
     color: $palette_primary-lg;
+    background-color: transparent !important;
 }
 
 sub {
@@ -151,4 +152,12 @@ hr {
 
 .marg-t {
     margin-top: 2em;
+}
+
+.marg-b {
+    margin-bottom: 2em;
+}
+
+.w-100 {
+    width: 100%;
 }
