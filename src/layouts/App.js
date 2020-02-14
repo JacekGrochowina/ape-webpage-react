@@ -12,7 +12,8 @@ import {
   faMapMarkerAlt,
   faMapMarkedAlt,
   faClock,
-  faDollarSign
+  faDollarSign,
+  faCalendarAlt
 } from '@fortawesome/free-solid-svg-icons';
 
 /* Styles */
@@ -37,7 +38,8 @@ class App extends Component {
       faMapMarkerAlt,
       faMapMarkedAlt,
       faClock,
-      faDollarSign
+      faDollarSign,
+      faCalendarAlt
     );
 
     return (
