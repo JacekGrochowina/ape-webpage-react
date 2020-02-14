@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer" id="contact">
             <div className="container footer__container">
                 <div className="footer__wraper">
-                    <h1 className="header footer__header">Bądźmy w kontakcie</h1>
+                    <h1 className="title footer__title">Bądźmy w kontakcie</h1>
                     <div className="row">
                         <div className="col-6 col-12-sm">
                             <h2 className="footer__h2">APE Piotr Wysocki</h2>
