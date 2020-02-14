@@ -21,7 +21,7 @@ const ParallaxImage = (props) => {
                 }}
             >
                 <div className="container">
-                    <h1 className="parallax__h1">Wykonujemy pod klucz<br />
+                    <h1 className="title parallax__title">Wykonujemy pod klucz<br />
                         elektrownie słoneczne</h1>
                 </div>
             </ParallaxBanner>
