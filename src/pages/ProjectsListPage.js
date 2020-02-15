@@ -23,7 +23,6 @@ const ProjectsListPage = (props) => {
                         </h4>
                     </div>
                 </div>
-                <p className="projects__p">{realization.desc}</p>
                 <Link to={`/realizacje/${realization.id}`} className="projects__a">
                     zobacz więcej
                     <FontAwesomeIcon icon={['fas', 'chevron-right']} />
