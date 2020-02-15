@@ -2,7 +2,10 @@
     &__wraper {
         max-width: 435px;
         display: block;
-        margin: auto;
+        margin: 2em auto;
+    }
+    &__image-wraper {
+        margin-bottom: 1em;
     }
     &__header-wraper {
         align-items: center;
@@ -22,6 +25,17 @@
             font-size: 1.4em;
             color: $palette_primary-bright;
         }
+        &--subpage {
+            font-family: $font_family-basic;
+            font-size: 1.7em;
+            color: $palette_primary-bright;
+            margin-top: 1em;
+            margin-bottom: 0;
+            &-big {
+                margin-bottom: 0.4em;
+                color: $palette_primary-dr;
+            }
+        }
     }
     &__h4 {
         color: $palette_primary-dr;
@@ -40,7 +54,7 @@
     }
     &__a {
         display: block;
-        text-align: center;
+        text-align: right;
         padding: 0.5em;
         margin-bottom: 1em;
         color: rgba($palette_primary, 0.8);
