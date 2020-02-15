@@ -1234,6 +1234,52 @@ hr {
   text-align: right;
 }
 
+.return-btn {
+  display: inline-block;
+  font-weight: "Raleway", sans-serif;
+  font-weight: 600;
+  color: rgba(85, 85, 85, 0.5);
+  padding: 0.5em 1em;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.return-btn:hover {
+  color: #555555;
+}
+
+.return-btn:hover svg {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.return-btn svg {
+  margin-right: 0.6em;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
+}
+
+.project {
+  padding: 3em 0;
+}
+
+.project .wraper--info {
+  margin-left: 1em;
+}
+
+.project__p {
+  margin-top: 2em;
+  max-width: 700px;
+}
+
 .home__container--about {
   max-width: 900px;
   text-align: center;
@@ -1367,7 +1413,11 @@ hr {
 .projects__wraper {
   max-width: 435px;
   display: block;
-  margin: auto;
+  margin: 2em auto;
+}
+
+.projects__image-wraper {
+  margin-bottom: 1em;
 }
 
 .projects__header-wraper {
@@ -1396,6 +1446,19 @@ hr {
   color: #A52120;
 }
 
+.projects__title--subpage {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.7em;
+  color: #A52120;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+.projects__title--subpage-big {
+  margin-bottom: 0.4em;
+  color: #555555;
+}
+
 .projects__h4 {
   color: #555555;
   font-weight: 400;
@@ -1416,7 +1479,7 @@ hr {
 
 .projects__a {
   display: block;
-  text-align: center;
+  text-align: right;
   padding: 0.5em;
   margin-bottom: 1em;
   color: rgba(97, 26, 25, 0.8);
