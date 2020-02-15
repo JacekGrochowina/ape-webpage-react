@@ -14,8 +14,8 @@
         "../scss/components/_Button.scss",
         "../scss/components/_Parallax.scss",
         "../scss/pages/_HomePage.scss",
-        "../scss/pages/_Services.scss",
-        "../scss/pages/_Projects.scss"
+        "../scss/pages/_ServicesPage.scss",
+        "../scss/pages/_ProjectsPage.scss"
     ],
     "names": [],
     "file": "main.css"
