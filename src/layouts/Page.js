@@ -20,15 +20,25 @@ import Bg9 from '../images/slider/9.jpg';
 
 /* Thumbnails of Portfolio */
 import Thb from '../images/portfolio/thumbnail/none-img.jpg';
-// import Thb1 from '../images/portfolio/thumbnail/';
-// import Thb2 from '../images/portfolio/thumbnail/';
-// import Thb3 from '../images/portfolio/thumbnail/';
-// import Thb4 from '../images/portfolio/thumbnail/';
-// import Thb5 from '../images/portfolio/thumbnail/';
-// import Thb6 from '../images/portfolio/thumbnail/';
-// import Thb7 from '../images/portfolio/thumbnail/';
-// import Thb8 from '../images/portfolio/thumbnail/';
-// import Thb9 from '../images/portfolio/thumbnail/';
+import Thb1 from '../images/portfolio/thumbnail/1.jpg';
+import Thb2 from '../images/portfolio/thumbnail/2.jpg';
+import Thb3 from '../images/portfolio/thumbnail/3.jpg';
+import Thb4 from '../images/portfolio/thumbnail/4.jpg';
+import Thb5 from '../images/portfolio/thumbnail/5.jpg';
+import Thb6 from '../images/portfolio/thumbnail/6.jpg';
+import Thb7 from '../images/portfolio/thumbnail/7.jpg';
+import Thb8 from '../images/portfolio/thumbnail/8.jpg';
+import Thb9 from '../images/portfolio/thumbnail/9.jpg';
+import Thb10 from '../images/portfolio/thumbnail/10.jpg';
+import Thb11 from '../images/portfolio/thumbnail/11.jpg';
+import Thb12 from '../images/portfolio/thumbnail/12.jpg';
+import Thb13 from '../images/portfolio/thumbnail/13.jpg';
+import Thb14 from '../images/portfolio/thumbnail/14.jpg';
+import Thb15 from '../images/portfolio/thumbnail/15.jpg';
+import Thb16 from '../images/portfolio/thumbnail/16.jpg';
+import Thb17 from '../images/portfolio/thumbnail/17.jpg';
+import Thb18 from '../images/portfolio/thumbnail/18.jpg';
+import Thb19 from '../images/portfolio/thumbnail/19.jpg';
 
 const Page = () => {
 
@@ -96,7 +106,7 @@ const Page = () => {
             desc: "Instalacja automatyki i sterowania procesu produkcyjnego - grzanie/chłodzenie oraz podawania surowców do reaktorów żywic syntetycznych w Dispersions&Resins we Włocławku",
             place: "Włocławek",
             data: 2019,
-            thumbnail: Thb,
+            thumbnail: Thb1,
             link: "/",
         },
         {
@@ -105,7 +115,7 @@ const Page = () => {
             desc: "Instalacja chłodzenia hali produkcyjnej, automatyka sterowania produkcji chłodu z agregatów wody lodowej i drycoolerów",
             place: "Lubień Kujawski",
             data: 2018,
-            thumbnail: Thb,
+            thumbnail: Thb2,
             link: "/",
         },
         {
@@ -114,7 +124,7 @@ const Page = () => {
             desc: "Instalacja automatyki i sterowania – grzanie/chłodzenie wsadu reaktora do produkcji żywic syntetycznych",
             place: "Włocławek",
             data: 2017,
-            thumbnail: Thb,
+            thumbnail: Thb3,
             link: "/",
         },
         {
@@ -123,7 +133,7 @@ const Page = () => {
             desc: "Instalacja automatyki i sterowania urządzeń grzewczo-wentylacyjnych i detekcji gazu",
             place: "Włocławek",
             data: 2017,
-            thumbnail: Thb,
+            thumbnail: Thb4,
             link: "/",
         },
         {
@@ -132,7 +142,7 @@ const Page = () => {
             desc: "Instalacje elektryczne zasilania i sterowania urządzeniami grzewczo-wentylacyjnymi oraz instalacja detekcji gazu (acetylen, metan)",
             place: "Wrocław",
             data: 2016,
-            thumbnail: Thb,
+            thumbnail: Thb5,
             link: "/",
         },
         {
@@ -141,7 +151,7 @@ const Page = () => {
             desc: "Zasilanie i sterowanie instalacją chłodu technologicznego dla potrzeb urządzeń drukarskich, instalacja automatyki wentylacji w układzie różnicy ciśnień oraz Detekcja gazu w pomieszczeniach Ex",
             place: "Kłobuck",
             data: 2016,
-            thumbnail: Thb,
+            thumbnail: Thb6,
             link: "/",
         },
         {
@@ -150,7 +160,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania nagrzewnic gazowych, wentylatorów wyciągowych oraz detekcji gazu",
             place: "Kłobuck",
             data: 2015,
-            thumbnail: Thb,
+            thumbnail: Thb7,
             link: "/",
         },
         {
@@ -159,7 +169,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania promienników gazowych oraz instalacja detekcji gazu ",
             place: "Ożarów",
             data: 2015,
-            thumbnail: Thb,
+            thumbnail: Thb8,
             link: "/",
         },
         {
@@ -168,7 +178,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania pomp kotłowni, pomp układu chłodzenia reaktorów- radarowy pomiar poziomu rozpuszczalników ropopochodnych w zbiornikach magazynowych oraz wykonanie pomiaru wagowego zbiorników magazynowych w oparciu o system 'SARTORIUS' ",
             place: "Włocławek",
             data: 2015,
-            thumbnail: Thb,
+            thumbnail: Thb9,
             link: "/",
         },
         {
@@ -177,7 +187,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania promienników gazowych oraz instalacja detekcji gazu",
             place: "Włocławek",
             data: 2015,
-            thumbnail: Thb,
+            thumbnail: Thb10,
             link: "/",
         },
         {
@@ -186,7 +196,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania układu chłodzenia wtryskarek CoolingSystem",
             place: "Gorzów Wlkp.",
             data: 2015,
-            thumbnail: Thb,
+            thumbnail: Thb11,
             link: "/",
         },
         {
@@ -195,7 +205,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania urządzeń wentylacyjnych oraz instalacja detekcji gazu (pentanu)",
             place: "Konin",
             data: 2014,
-            thumbnail: Thb,
+            thumbnail: Thb12,
             link: "/",
         },
         {
@@ -204,7 +214,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania klimakonwektorów i wentylatorów wyciągowych oraz instalacja zasilania i sterowania pompami obiegowymi w układzie pomp ciepła",
             place: "Komorniki",
             data: 2014,
-            thumbnail: Thb,
+            thumbnail: Thb13,
             link: "/",
         },
         {
@@ -213,7 +223,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania promienników gazowych oraz instalacja detekcji gazu",
             place: "Łubna",
             data: 2014,
-            thumbnail: Thb,
+            thumbnail: Thb14,
             link: "/",
         },
         {
@@ -222,7 +232,7 @@ const Page = () => {
             desc: "Instalacja zasilania i sterowania nagrzewnic gazowych, wentylatorów wyciągowych oraz detekcji gazu",
             place: "Opole",
             data: 2014,
-            thumbnail: Thb,
+            thumbnail: Thb15,
             link: "/",
         },
         {
@@ -231,7 +241,7 @@ const Page = () => {
             desc: "Instalacja automatyki farmy solarnej",
             place: "Skarbimierz",
             data: 2013,
-            thumbnail: Thb,
+            thumbnail: Thb16,
             link: "/",
         },
         {
@@ -240,7 +250,7 @@ const Page = () => {
             desc: "Instalacja zasilania, sterowania i automatki nagrzewnic wodnych i urządzeń wentylacyjnych ",
             place: "Skarbimierz",
             data: 2013,
-            thumbnail: Thb,
+            thumbnail: Thb17,
             link: "/",
         },
         {
@@ -249,7 +259,7 @@ const Page = () => {
             desc: "Instalacja zasilania, sterowania i automatyki nagrzewnic gazowych, wentylatorów i destratyfikatorów oraz instalacja detekcji gazu",
             place: "Tarnobrzeg",
             data: 2013,
-            thumbnail: Thb,
+            thumbnail: Thb18,
             link: "/",
         },
         {
@@ -258,7 +268,7 @@ const Page = () => {
             desc: "Instalacja zasilania, sterowania i automatyki nagrzewnic gazowych, wentylatorów i destratyfikatorów oraz instalacja detekcji gazu",
             place: "Legnica",
             data: 2013,
-            thumbnail: Thb,
+            thumbnail: Thb19,
             link: "/",
         },
     ]
