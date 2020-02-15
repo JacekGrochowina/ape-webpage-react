@@ -2,9 +2,10 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
-import Services from '../pages/Services';
-import Portfolio from '../pages/Portfolio';
-import Contact from '../pages/Contact';
+import ServicesPage from '../pages/ServicesPage';
+import ProjectsListPage from '../pages/ProjectsListPage';
+import ProjectPage from '../pages/ProjectPage';
+import ContactPage from '../pages/ContactPage';
 
 /* Backgrounds of Services */
 import Bg1 from '../images/slider/1.jpg';
@@ -266,9 +267,15 @@ const Page = () => {
         <>
             <Switch>
                 <Route path="/" exact component={(props) => <HomePage data={SERVICES_DATA} />} />
-                <Route path="/oferta" exact component={(props) => <Services data={SERVICES_DATA} />} />
-                <Route path="/realizacje" exact component={(props) => <Portfolio data={PORTFOLIO_DATA} />} />
-                <Route path="/kontakt" exact component={Contact} />
+                <Route path="/oferta" exact component={(props) => <ServicesPage data={SERVICES_DATA} />} />
+                <Route path="/realizacje" exact component={(props) => <ProjectsListPage data={PORTFOLIO_DATA} />} />
+                {/* <Route path="/realizacje/:id" component={(props) => <ProjectPage data={PORTFOLIO_DATA} />} /> */}
+
+                {/* dziala */}
+                {/* <Route path="/realizacje/:id" component={ProjectPage} /> */}
+
+                <Route path="/realizacje/:id" component={(props) => <ProjectPage data={PORTFOLIO_DATA} />} />
+                <Route path="/kontakt" exact component={ContactPage} />
             </Switch>
         </>
     );
