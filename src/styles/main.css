@@ -1280,6 +1280,15 @@ hr {
   max-width: 700px;
 }
 
+.project__wraper-img {
+  margin: auto;
+}
+
+.project__img {
+  display: block;
+  width: 100%;
+}
+
 .home__container--about {
   max-width: 900px;
   text-align: center;
