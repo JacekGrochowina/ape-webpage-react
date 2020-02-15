@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Services = (props) => {
+const ServicesPage = (props) => {
 
     const services = props.data.map(service => (
         <Link to={service.link}
@@ -20,4 +20,4 @@ const Services = (props) => {
     )
 }
 
-export default Services;
+export default ServicesPage;
