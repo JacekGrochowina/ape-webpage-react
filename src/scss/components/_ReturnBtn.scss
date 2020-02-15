@@ -1,0 +1,21 @@
+.return-btn {
+    display: inline-block;
+    font-weight: $font_family;
+    font-weight: $font_weight-bold;
+    color: rgba($palette_primary-dr, 0.5);
+    padding: 0.5em 1em;
+    transition-property: color;
+    transition-duration: 0.25s;
+    &:hover {
+        color: rgba($palette_primary-dr, 1);
+        svg {
+            transform: translateX(-10px);
+        }
+    }
+    svg {
+        margin-right: 0.6em;
+        transform: translateX(0);
+        transition-property: transform;
+        transition-duration: 0.25s;
+    }
+}
