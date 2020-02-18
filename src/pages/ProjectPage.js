@@ -11,7 +11,7 @@ const ProjectPage = (props) => {
         <div className="project">
             <div className="container project__container">
 
-                <ReturnBtn />
+                <ReturnBtn backTo="/realizacje" />
                 <h1 className="title projects__title--subpage">Realizacja</h1>
                 <Project id={id} data={props.data} />
 
