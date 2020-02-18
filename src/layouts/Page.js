@@ -19,7 +19,6 @@ import Bg8 from '../images/slider/8.jpg';
 import Bg9 from '../images/slider/9.jpg';
 
 /* Thumbnails of Portfolio */
-import Thb from '../images/portfolio/thumbnail/none-img.jpg';
 import Thb1 from '../images/portfolio/thumbnail/1.jpg';
 import Thb2 from '../images/portfolio/thumbnail/2.jpg';
 import Thb3 from '../images/portfolio/thumbnail/3.jpg';
@@ -39,6 +38,86 @@ import Thb16 from '../images/portfolio/thumbnail/16.jpg';
 import Thb17 from '../images/portfolio/thumbnail/17.jpg';
 import Thb18 from '../images/portfolio/thumbnail/18.jpg';
 import Thb19 from '../images/portfolio/thumbnail/19.jpg';
+
+/* Images of Portfolio */
+import Img1Pr1 from '../images/portfolio/2019/dispersions&resins/1.jpg';
+import Img2Pr1 from '../images/portfolio/2019/dispersions&resins/2.jpg';
+import Img3Pr1 from '../images/portfolio/2019/dispersions&resins/3.jpg';
+import Img4Pr1 from '../images/portfolio/2019/dispersions&resins/4.jpg';
+import Img5Pr1 from '../images/portfolio/2019/dispersions&resins/5.jpg';
+import Img6Pr1 from '../images/portfolio/2019/dispersions&resins/6.jpg';
+import Img7Pr1 from '../images/portfolio/2019/dispersions&resins/7.jpg';
+import Img8Pr1 from '../images/portfolio/2019/dispersions&resins/8.jpg';
+import Img9Pr1 from '../images/portfolio/2019/dispersions&resins/9.jpg';
+import Img10Pr1 from '../images/portfolio/2019/dispersions&resins/10.jpg';
+import Img11Pr1 from '../images/portfolio/2019/dispersions&resins/11.jpg';
+import Img12Pr1 from '../images/portfolio/2019/dispersions&resins/12.jpg';
+
+import Img1Pr2 from '../images/portfolio/2018/superfos/1.jpg';
+import Img2Pr2 from '../images/portfolio/2018/superfos/2.jpg';
+import Img3Pr2 from '../images/portfolio/2018/superfos/3.jpg';
+import Img4Pr2 from '../images/portfolio/2018/superfos/4.jpg';
+import Img5Pr2 from '../images/portfolio/2018/superfos/5.jpg';
+import Img6Pr2 from '../images/portfolio/2018/superfos/6.jpg';
+
+import Img1Pr3 from '../images/portfolio/2017/dispersions&resins/1.png';
+import Img2Pr3 from '../images/portfolio/2017/dispersions&resins/2.png';
+import Img3Pr3 from '../images/portfolio/2017/dispersions&resins/3.png';
+import Img4Pr3 from '../images/portfolio/2017/dispersions&resins/4.png';
+
+import Img1Pr4 from '../images/portfolio/2017/kongsberg/1.jpg';
+import Img2Pr4 from '../images/portfolio/2017/kongsberg/2.jpg';
+import Img3Pr4 from '../images/portfolio/2017/kongsberg/3.jpg';
+import Img4Pr4 from '../images/portfolio/2017/kongsberg/4.jpg';
+import Img5Pr4 from '../images/portfolio/2017/kongsberg/5.jpg';
+
+import Img1Pr5 from '../images/portfolio/2016/bombardier/1.jpg';
+import Img2Pr5 from '../images/portfolio/2016/bombardier/2.jpg';
+import Img3Pr5 from '../images/portfolio/2016/bombardier/3.jpg';
+import Img4Pr5 from '../images/portfolio/2016/bombardier/4.jpg';
+import Img5Pr5 from '../images/portfolio/2016/bombardier/5.jpg';
+import Img6Pr5 from '../images/portfolio/2016/bombardier/6.jpg';
+import Img7Pr5 from '../images/portfolio/2016/bombardier/7.jpg';
+import Img8Pr5 from '../images/portfolio/2016/bombardier/8.jpg';
+import Img9Pr5 from '../images/portfolio/2016/bombardier/9.jpg';
+import Img10Pr5 from '../images/portfolio/2016/bombardier/10.jpg';
+
+import Img1Pr6 from '../images/portfolio/2016/sudpack/1.jpg';
+import Img2Pr6 from '../images/portfolio/2016/sudpack/2.jpg';
+import Img3Pr6 from '../images/portfolio/2016/sudpack/3.jpg';
+import Img4Pr6 from '../images/portfolio/2016/sudpack/4.jpg';
+import Img5Pr6 from '../images/portfolio/2016/sudpack/5.jpg';
+import Img6Pr6 from '../images/portfolio/2016/sudpack/6.jpg';
+import Img7Pr6 from '../images/portfolio/2016/sudpack/7.jpg';
+import Img8Pr6 from '../images/portfolio/2016/sudpack/8.jpg';
+import Img9Pr6 from '../images/portfolio/2016/sudpack/9.jpg';
+import Img10Pr6 from '../images/portfolio/2016/sudpack/10.jpg';
+
+import Img1Pr7 from '../images/portfolio/2015/panattoniparktarnobrzeg/1.jpg';
+
+import Img1Pr8 from '../images/portfolio/2015/ozarowbusinesspark/1.jpg';
+
+import Img1Pr9 from '../images/portfolio/2015/dispersion&resins/1.jpg';
+
+import Img1Pr10 from '../images/portfolio/2015/panattoniparkradonice/1.jpg';
+
+import Img1Pr11 from '../images/portfolio/2015/faurecjagorzowwlkp/1.jpg';
+
+import Img1Pr12 from '../images/portfolio/2014/arsanitkonin/1.jpg';
+
+import Img1Pr13 from '../images/portfolio/2014/koopmankomorniki/1.jpg';
+
+import Img1Pr14 from '../images/portfolio/2014/goodpointlubna/1.jpg';
+
+import Img1Pr15 from '../images/portfolio/2014/polarisopole/1.jpg';
+
+import Img1Pr16 from '../images/portfolio/2013/uniserviceskarbimierz/1.jpg';
+
+import Img1Pr17 from '../images/portfolio/2013/unitedpackagingskarbimierz/1.jpg';
+
+import Img1Pr18 from '../images/portfolio/2013/panattoniparktarnobrzeg/1.jpg';
+
+import Img1Pr19 from '../images/portfolio/2013/learlegnica/1.jpg';
 
 const Page = () => {
 
@@ -107,7 +186,7 @@ const Page = () => {
             place: "Włocławek",
             data: 2019,
             thumbnail: Thb1,
-            images: [Thb1, Thb2, Thb3],
+            images: [Img1Pr1, Img2Pr1, Img3Pr1, Img4Pr1, Img5Pr1, Img6Pr1, Img7Pr1, Img8Pr1, Img9Pr1, Img10Pr1, Img11Pr1, Img12Pr1],
         },
         {
             id: 2,
@@ -116,7 +195,7 @@ const Page = () => {
             place: "Lubień Kujawski",
             data: 2018,
             thumbnail: Thb2,
-            images: [Thb1, Thb2],
+            images: [Img1Pr2, Img2Pr2, Img3Pr2, Img4Pr2, Img5Pr2, Img6Pr2],
         },
         {
             id: 3,
@@ -125,7 +204,7 @@ const Page = () => {
             place: "Włocławek",
             data: 2017,
             thumbnail: Thb3,
-            images: [Thb1, Thb2],
+            images: [Img1Pr3, Img2Pr3, Img3Pr3, Img4Pr3],
         },
         {
             id: 4,
@@ -134,7 +213,7 @@ const Page = () => {
             place: "Włocławek",
             data: 2017,
             thumbnail: Thb4,
-            images: [Thb1, Thb2],
+            images: [Img1Pr4, Img2Pr4, Img3Pr4, Img4Pr4, Img5Pr4],
         },
         {
             id: 5,
@@ -143,7 +222,7 @@ const Page = () => {
             place: "Wrocław",
             data: 2016,
             thumbnail: Thb5,
-            images: [Thb1, Thb2],
+            images: [Img1Pr5, Img2Pr5, Img3Pr5, Img4Pr5, Img5Pr5, Img6Pr5, Img7Pr5, Img8Pr5, Img9Pr5, Img10Pr5],
         },
         {
             id: 6,
@@ -152,7 +231,7 @@ const Page = () => {
             place: "Kłobuck",
             data: 2016,
             thumbnail: Thb6,
-            images: [Thb1, Thb2],
+            images: [Img1Pr6, Img2Pr6, Img3Pr6, Img4Pr6, Img5Pr6, Img6Pr6, Img7Pr6, Img8Pr6, Img9Pr6, Img10Pr6],
         },
         {
             id: 7,
@@ -161,7 +240,7 @@ const Page = () => {
             place: "Kłobuck",
             data: 2015,
             thumbnail: Thb7,
-            images: [Thb1, Thb2],
+            images: [Img1Pr7],
         },
         {
             id: 8,
@@ -170,7 +249,7 @@ const Page = () => {
             place: "Ożarów",
             data: 2015,
             thumbnail: Thb8,
-            images: [Thb1, Thb2],
+            images: [Img1Pr8],
         },
         {
             id: 9,
@@ -179,7 +258,7 @@ const Page = () => {
             place: "Włocławek",
             data: 2015,
             thumbnail: Thb9,
-            images: [Thb1, Thb2],
+            images: [Img1Pr9],
         },
         {
             id: 10,
@@ -188,7 +267,7 @@ const Page = () => {
             place: "Włocławek",
             data: 2015,
             thumbnail: Thb10,
-            images: [Thb1, Thb2],
+            images: [Img1Pr10],
         },
         {
             id: 11,
@@ -197,7 +276,7 @@ const Page = () => {
             place: "Gorzów Wlkp.",
             data: 2015,
             thumbnail: Thb11,
-            images: [Thb1, Thb2],
+            images: [Img1Pr11],
         },
         {
             id: 12,
@@ -206,7 +285,7 @@ const Page = () => {
             place: "Konin",
             data: 2014,
             thumbnail: Thb12,
-            images: [Thb1, Thb2],
+            images: [Img1Pr12],
         },
         {
             id: 13,
@@ -215,7 +294,7 @@ const Page = () => {
             place: "Komorniki",
             data: 2014,
             thumbnail: Thb13,
-            images: [Thb1, Thb2],
+            images: [Img1Pr13],
         },
         {
             id: 14,
@@ -224,7 +303,7 @@ const Page = () => {
             place: "Łubna",
             data: 2014,
             thumbnail: Thb14,
-            images: [Thb1, Thb2],
+            images: [Img1Pr14],
         },
         {
             id: 15,
@@ -233,7 +312,7 @@ const Page = () => {
             place: "Opole",
             data: 2014,
             thumbnail: Thb15,
-            images: [Thb1, Thb2],
+            images: [Img1Pr15],
         },
         {
             id: 16,
@@ -242,7 +321,7 @@ const Page = () => {
             place: "Skarbimierz",
             data: 2013,
             thumbnail: Thb16,
-            images: [Thb1, Thb2],
+            images: [Img1Pr16],
         },
         {
             id: 17,
@@ -251,7 +330,7 @@ const Page = () => {
             place: "Skarbimierz",
             data: 2013,
             thumbnail: Thb17,
-            images: [Thb1, Thb2],
+            images: [Img1Pr17],
         },
         {
             id: 18,
@@ -260,7 +339,7 @@ const Page = () => {
             place: "Tarnobrzeg",
             data: 2013,
             thumbnail: Thb18,
-            images: [Thb1, Thb2],
+            images: [Img1Pr18],
         },
         {
             id: 19,
@@ -269,7 +348,7 @@ const Page = () => {
             place: "Legnica",
             data: 2013,
             thumbnail: Thb19,
-            images: [Thb1, Thb2],
+            images: [Img1Pr19],
         },
     ]
 
