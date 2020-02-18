@@ -9,8 +9,11 @@
         margin-top: 2em;
         max-width: 700px;
     }
+    &__gallery {
+        justify-content: flex-start;
+    }
     &__wraper-img {
-        margin: auto;
+        padding: 0.5em;
     }
     &__img {
         display: block;
