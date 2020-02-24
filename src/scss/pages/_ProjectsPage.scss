@@ -1,4 +1,5 @@
-.projects {
+.projects,
+.service {
     &__wraper {
         max-width: 435px;
         display: block;
@@ -72,6 +73,58 @@
             svg {
                 transform: translateX(10px);
             }
+        }
+    }
+}
+
+.service {
+    &__container {
+        max-width: $size_container-width-shrink;
+        margin: auto;
+    }
+    &__p {
+        text-align: left;
+    }
+    &__list {
+        list-style: square;
+        list-style-position: inside;
+    }
+    &__item {
+        font-family: $font_family;
+        line-height: 1.6;
+        margin-left: 1em;
+    }
+    &__span, &__link {
+        font-family: $font_family-heading;
+        color: $palette_primary-bright;
+        font-size: 1.1em;
+        &--title {
+            display: block;
+            margin: 2em 0 0.5em;
+        }
+    }
+    $serviceBorderTable: 1px solid rgba($palette_primary-dr, 0.4);
+    &__table {
+        line-height: 1.4;
+        font-size: 0.9em;
+    }
+    &__row {
+        border-bottom: $serviceBorderTable;
+        &:nth-of-type(even) {
+            background-color: rgba($palette_primary-dr, 0.1);
+        }
+        &:nth-last-of-type(1) {
+            border-bottom: none;
+        }
+    }
+    &__cell {
+        padding: 1em 0.5em;
+        &--price {
+            padding: 0.5em;
+            min-width: 180px;
+            border-left: $serviceBorderTable;
+            font-family: $font_family;
+            font-weight: $font_weight-bold;
         }
     }
 }
