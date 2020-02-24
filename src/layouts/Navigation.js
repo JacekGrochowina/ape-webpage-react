@@ -30,6 +30,7 @@ class Navigation extends Component {
                 <NavLink to={item.path} exact={item.exact ? item.exact : false} className="nav__link">{item.name}</NavLink>
             </li>
         ))
+
         return (
             <nav className="nav" >
                 <div className={this.state.active ? "container nav__container row is-active" : "container nav__container row"} >
