@@ -1,0 +1,14 @@
+.error {
+    padding: 3em 0;
+    &__title {
+        text-align: center;
+        color: $palette_primary-dr;
+        &--huge {
+            position: relative;
+            font-size: 12em;
+            text-align: center;
+            color: $palette_primary-bright;
+            margin: 0;
+        }
+    }
+}
