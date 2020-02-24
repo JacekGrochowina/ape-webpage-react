@@ -1,4 +1,5 @@
-.project {
+.project,
+.service {
     padding: 3em 0;
     .wraper {
         &--info {
@@ -18,5 +19,11 @@
     &__img {
         display: block;
         width: 100%;
+    }
+}
+
+.service {
+    &__p {
+        max-width: 100%;
     }
 }
