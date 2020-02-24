@@ -37,3 +37,37 @@
         margin-bottom: 3em;
     }
 }
+
+.info {
+    position: relative;
+    padding: 0;
+    height: 50vh;
+    overflow: hidden;
+    &__tile {
+        background-position: center;
+        background-size: cover;
+        opacity: 0.6;
+    }
+    &__wraper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.5em;
+        width: 100%;
+        max-width: 500px;
+        z-index: 1;
+        text-align: center;
+    }
+    &__h1 {
+        font-family: $font_family;
+        font-size: 1.8em;
+        color: #222222;
+        padding-bottom: 0.5em;
+        &--span {
+            display: block;
+            font-size: 1.4em;
+            color: $palette_primary-bright;
+        }
+    }
+}
