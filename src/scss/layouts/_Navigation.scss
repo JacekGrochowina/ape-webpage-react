@@ -19,8 +19,6 @@
         align-items: center;
         max-height: $navHeight;
         overflow: hidden;
-        // transition-property: max-height;
-        // transition-duration: .2s;
         transition: max-height .2s;
         &.is-active {
             max-height: 330px;
@@ -76,6 +74,9 @@
             color: $palette_primary-bright;
             &::before {
                 height: 100%;
+                @media($medium) {
+                    height: 0;
+                }
             }
         }
         &::before {
