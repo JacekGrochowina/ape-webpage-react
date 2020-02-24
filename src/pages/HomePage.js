@@ -24,48 +24,48 @@ const HomePage = (props) => {
             id: 1,
             title: "drzwi automatyczne",
             icon: Icon1,
-            link: "/"
+            link: "/drzwi-automatyczne"
         },
         {
             id: 2,
             title: "termowizja instalacji",
             icon: Icon2,
-            link: "/"
+            link: "/termowizja"
         },
         {
             id: 3,
             title: "instalacje alarmowe",
             icon: Icon3,
-            link: "/"
+            link: "/instalacje-alarmowe"
         },
         {
             id: 4,
             title: "monitoring obiektów",
             icon: Icon4,
-            link: "/"
+            link: "/instalacje-alarmowe"
         },
         {
             id: 5,
             title: "dyrektywy WE",
             icon: Icon5,
-            link: "/"
+            link: "/ocena-maszyn"
         },
         {
             id: 6,
             title: "ocena ryzyka",
             icon: Icon6,
-            link: "/"
+            link: "/ocena-maszyn"
         },
         {
             id: 7,
             title: "tworzenie stron",
             icon: Icon7,
-            link: "/"
+            link: "/tworzenie-stron"
         },
     ]
 
     const servicesIcons = servicesIconsData.map(item => (
-        <Link to={servicesIconsData.link} className="home__service" key={item.id}>
+        <Link to={item.link} className="home__service" key={item.id}>
             <img className="home__service-icon" src={item.icon} alt={item.title} />
             <h3 className="home__service-icon-title">{item.title}</h3>
         </Link>
@@ -93,6 +93,16 @@ Podstawowy zakres naszych działań to wszelkiego rodzaju prace związane z szer
             </section>
 
             <Parallax src={Image} alt="solar panels" />
+
+            <section className="info row">
+                <div className="info__tile col-6 col-12-sm" style={{ backgroundImage: `url(${props.data[1].bg})` }}></div>
+                <div className="info__tile col-6 col-12-sm" style={{ backgroundImage: `url(${props.data[2].bg})` }}></div>
+
+                <div className="wraper info__wraper">
+                    <h1 className="info__h1">Fotowoltaika + Maty Grzewcze = <span className="info__h1--span">Darmowe Ogrzewanie?</span></h1>
+                    <Button link="/kalkulator" text="zobacz ofertę" />
+                </div>
+            </section>
         </div>
     )
 }
