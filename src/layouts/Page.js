@@ -6,6 +6,17 @@ import ServicesPage from '../pages/ServicesPage';
 import ProjectsListPage from '../pages/ProjectsListPage';
 import ProjectPage from '../pages/ProjectPage';
 import ContactPage from '../pages/ContactPage';
+import ErrorPage from '../pages/ErrorPage';
+
+import Automatyka from '../pages/services/Automatyka';
+import Fotowoltaika from '../pages/services/Fotowoltaika';
+import SystemyGrzewcze from '../pages/services/SystemyGrzewcze';
+import Termowizja from '../pages/services/Termowizja';
+import DetekcjaGazu from '../pages/services/DetekcjaGazu';
+import DrzwiAutomatyczne from '../pages/services/DrzwiAutomatyczne';
+import InstalacjeAlarmowe from '../pages/services/InstalacjeAlarmowe';
+import OcenaMaszyn from '../pages/services/OcenaMaszyn';
+import TworzenieStron from '../pages/services/TworzenieStron';
 
 /* Backgrounds of Services */
 import Bg1 from '../images/slider/1.jpg';
@@ -126,55 +137,55 @@ const Page = () => {
             id: 1,
             title: "Automatyka przemysłowa",
             bg: Bg1,
-            link: "/",
+            link: "/automatyka",
         },
         {
             id: 2,
             title: "Instalacje fotowoltaiczne",
             bg: Bg2,
-            link: "/",
+            link: "/fotowoltaika",
         },
         {
             id: 3,
             title: "Elektryczne systemy grzewcze",
             bg: Bg3,
-            link: "/",
+            link: "/systemy-grzewcze",
         },
         {
             id: 4,
             title: "Termowizja",
             bg: Bg4,
-            link: "/",
+            link: "/termowizja",
         },
         {
             id: 5,
             title: "Detekcja gazu",
             bg: Bg5,
-            link: "/",
+            link: "/detekcja-gazu",
         },
         {
             id: 6,
             title: "Drzwi automatyczne",
             bg: Bg6,
-            link: "/",
+            link: "/drzwi-automatyczne",
         },
         {
             id: 7,
             title: "Instalacje alarmowe - monitoring",
             bg: Bg7,
-            link: "/",
+            link: "/instalacje-alarmowe",
         },
         {
             id: 8,
             title: "Ocena maszyn - wymagania BHP",
             bg: Bg8,
-            link: "/",
+            link: "/ocena-maszyn",
         },
         {
             id: 9,
             title: "Strony internetowe",
             bg: Bg9,
-            link: "/",
+            link: "/tworzenie-stron",
         },
     ]
 
@@ -360,6 +371,18 @@ const Page = () => {
                 <Route path="/realizacje" exact component={(props) => <ProjectsListPage data={PORTFOLIO_DATA} />} />
                 <Route path="/realizacje/:id" component={(props) => <ProjectPage data={PORTFOLIO_DATA} />} />
                 <Route path="/kontakt" exact component={ContactPage} />
+
+                <Route path="/automatyka" exact component={(props) => <Automatyka data={SERVICES_DATA} />} />
+                <Route path="/fotowoltaika" exact component={(props) => <Fotowoltaika data={SERVICES_DATA} />} />
+                <Route path="/systemy-grzewcze" exact component={(props) => <SystemyGrzewcze data={SERVICES_DATA} />} />
+                <Route path="/termowizja" exact component={(props) => <Termowizja data={SERVICES_DATA} />} />
+                <Route path="/detekcja-gazu" exact component={(props) => <DetekcjaGazu data={SERVICES_DATA} />} />
+                <Route path="/drzwi-automatyczne" exact component={(props) => <DrzwiAutomatyczne data={SERVICES_DATA} />} />
+                <Route path="/instalacje-alarmowe" exact component={(props) => <InstalacjeAlarmowe data={SERVICES_DATA} />} />
+                <Route path="/ocena-maszyn" exact component={(props) => <OcenaMaszyn data={SERVICES_DATA} />} />
+                <Route path="/tworzenie-stron" exact component={(props) => <TworzenieStron data={SERVICES_DATA} />} />
+
+                <Route component={ErrorPage} />
             </Switch>
         </>
     );
