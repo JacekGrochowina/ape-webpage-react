@@ -17,7 +17,7 @@ const ParallaxImage = (props) => {
                 ]}
                 style={{
                     height: '50vh',
-                    maxHeight: '430px'
+                    minHeight: '430px'
                 }}
             >
                 <div className="container">
