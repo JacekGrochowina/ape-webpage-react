@@ -16,7 +16,7 @@ const Footer = () => {
                                 <li className="footer__item"><div className="footer__icon"><FontAwesomeIcon icon={['fas', 'map-marker-alt']} /></div>ul. Wyszyńskiego 19 / 3</li>
                                 <li className="footer__item"><div className="footer__icon"><FontAwesomeIcon icon={['fas', 'map-marked-alt']} /></div> 87-800 Włocławek</li>
                                 <li className="footer__item"><div className="footer__icon"><FontAwesomeIcon icon={['fas', 'envelope']} /></div>apepwape@gmail.com</li>
-                                <li className="footer__item"><Link to="/"><div className="footer__icon"><FontAwesomeIcon icon={['fas', 'clock']} /></div>Po godzinach...</Link></li>
+                                <li className="footer__item"><Link to="/hobby"><div className="footer__icon"><FontAwesomeIcon icon={['fas', 'clock']} /></div>Po godzinach...</Link></li>
                             </ul>
                         </div>
                         <div className="col-6 col-12-sm">
