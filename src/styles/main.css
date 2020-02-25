@@ -1265,11 +1265,21 @@ hr {
   }
 }
 
+.parallax-baner {
+  min-height: 430px;
+}
+
 .parallax__title {
   position: relative;
   padding: 2em 0;
   margin: 0;
   text-align: right;
+}
+
+@media (max-width: 736px) {
+  .parallax__title {
+    font-size: 2.2em;
+  }
 }
 
 .return-btn {
@@ -1389,7 +1399,7 @@ hr {
 .info {
   position: relative;
   padding: 0;
-  height: 50vh;
+  min-height: 50vh;
   overflow: hidden;
 }
 
@@ -1405,7 +1415,7 @@ hr {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  padding: 0.5em;
+  padding: 2em 0.5em;
   width: 100%;
   max-width: 500px;
   z-index: 1;
@@ -1517,6 +1527,11 @@ hr {
   max-width: 435px;
   display: block;
   margin: 2em auto;
+}
+
+.projects__image,
+.service__image {
+  width: 100%;
 }
 
 .projects__image-wraper,
@@ -1702,5 +1717,79 @@ hr {
   text-align: center;
   color: #A52120;
   margin: 0;
+}
+
+.rodo,
+.hobby {
+  padding: 2em 0;
+}
+
+.rodo__container,
+.hobby__container {
+  max-width: 900px;
+}
+
+.rodo__title,
+.hobby__title {
+  color: #A52120;
+  display: block;
+  width: 100%;
+  margin: 0.5em 0 1.4em 0;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.4);
+}
+
+.rodo__p,
+.hobby__p {
+  line-height: 1.2;
+  margin-bottom: 1em;
+}
+
+.rodo__p--author,
+.hobby__p--author {
+  padding-top: 1em;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+.rodo__p--author span,
+.hobby__p--author span {
+  display: block;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.rodo__numbered-list,
+.hobby__numbered-list {
+  margin-left: 30px;
+  list-style-type: decimal-leading-zero;
+  list-style-position: outside;
+}
+
+.rodo__numbered-item,
+.hobby__numbered-item {
+  margin-bottom: 0.5em;
+}
+
+.rodo__unnumbered-list,
+.hobby__unnumbered-list {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  list-style-type: circle;
+  list-style-position: outside;
+  line-height: 1.5;
+  color: rgba(85, 85, 85, 0.8);
+}
+
+.rodo__unnumbered-item,
+.hobby__unnumbered-item {
+  font-size: 0.9em;
+}
+
+.rodo__button-wraper,
+.hobby__button-wraper {
+  padding: 2em 0;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
