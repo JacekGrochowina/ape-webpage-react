@@ -100,7 +100,7 @@ Podstawowy zakres naszych działań to wszelkiego rodzaju prace związane z szer
 
                 <div className="wraper info__wraper">
                     <h1 className="info__h1">Fotowoltaika + Maty Grzewcze = <span className="info__h1--span">Darmowe Ogrzewanie?</span></h1>
-                    <Button link="/kalkulator" text="zobacz ofertę" />
+                    <a className="button" href="http://kalkulator.apepw.pl/" >zobacz ofertę</a>
                 </div>
             </section>
         </div>
