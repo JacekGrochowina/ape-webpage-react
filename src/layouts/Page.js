@@ -7,6 +7,8 @@ import ProjectsListPage from '../pages/ProjectsListPage';
 import ProjectPage from '../pages/ProjectPage';
 import ContactPage from '../pages/ContactPage';
 import ErrorPage from '../pages/ErrorPage';
+import RodoPage from '../pages/RodoPage';
+import HobbyPage from '../pages/HobbyPage';
 
 import Automatyka from '../pages/services/Automatyka';
 import Fotowoltaika from '../pages/services/Fotowoltaika';
@@ -371,6 +373,8 @@ const Page = () => {
                 <Route path="/realizacje" exact component={(props) => <ProjectsListPage data={PORTFOLIO_DATA} />} />
                 <Route path="/realizacje/:id" component={(props) => <ProjectPage data={PORTFOLIO_DATA} />} />
                 <Route path="/kontakt" exact component={ContactPage} />
+                <Route path="/rodo" exact component={RodoPage} />
+                <Route path="/hobby" exact component={HobbyPage} />
 
                 <Route path="/automatyka" exact component={(props) => <Automatyka data={SERVICES_DATA} />} />
                 <Route path="/fotowoltaika" exact component={(props) => <Fotowoltaika data={SERVICES_DATA} />} />
