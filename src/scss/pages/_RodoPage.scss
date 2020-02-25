@@ -1,0 +1,57 @@
+.rodo,
+.hobby {
+    padding: 2em 0;
+    &__container {
+        max-width: $size_container-width-shrink;
+    }
+    &__title {
+        color: $palette_primary-bright;
+        display: block;
+        width: 100%;
+        margin: 0.5em 0 1.4em 0;
+        padding-bottom: 0.7em;
+        border-bottom: 1px solid rgba($palette_primary-dr, 0.4);
+    }
+    &__p {
+        line-height: 1.2;
+        margin-bottom: 1em;
+        &--author {
+            padding-top: 1em;
+            font-size: 0.9em;
+            text-align: right;
+            span {
+                display: block;
+                font-weight: $font_weight-bold;
+                font-size: 1.1em;
+            }
+        }
+    }
+    &__numbered {
+        &-list {
+            margin-left: 30px;
+            list-style-type: decimal-leading-zero;
+            list-style-position: outside;
+        }
+        &-item {
+            margin-bottom: 0.5em;
+        }
+    }
+    &__unnumbered {
+        &-list {
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            margin-left: 1em;
+            list-style-type: circle;
+            list-style-position: outside;
+            line-height: 1.5;
+            color: rgba($palette_primary-dr, 0.8);
+        }
+        &-item {
+            font-size: 0.9em;
+        }
+    }
+    &__button-wraper {
+        padding: 2em 0;
+        text-align: center;
+    }
+}
