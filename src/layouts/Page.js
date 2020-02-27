@@ -52,6 +52,17 @@ import Thb17 from '../images/portfolio/thumbnail/17.jpg';
 import Thb18 from '../images/portfolio/thumbnail/18.jpg';
 import Thb19 from '../images/portfolio/thumbnail/19.jpg';
 
+/* Icons of Services */
+import Icon1 from '../images/services/icon1.png';
+import Icon2 from '../images/services/icon2.png';
+import Icon3 from '../images/services/icon3.png';
+import Icon4 from '../images/services/icon4.png';
+import Icon5 from '../images/services/icon5.png';
+import Icon6 from '../images/services/icon6.png';
+import Icon7 from '../images/services/icon7.png';
+import Icon8 from '../images/services/icon8.png';
+import Icon9 from '../images/services/icon9.png';
+
 /* Images of Portfolio */
 import Img1Pr1 from '../images/portfolio/2019/dispersions&resins/1.jpg';
 import Img2Pr1 from '../images/portfolio/2019/dispersions&resins/2.jpg';
@@ -139,54 +150,63 @@ const Page = () => {
             id: 1,
             title: "Automatyka przemysłowa",
             bg: Bg1,
+            icon: Icon1,
             link: "/automatyka",
         },
         {
             id: 2,
             title: "Instalacje fotowoltaiczne",
             bg: Bg2,
+            icon: Icon2,
             link: "/fotowoltaika",
         },
         {
             id: 3,
             title: "Elektryczne systemy grzewcze",
             bg: Bg3,
+            icon: Icon3,
             link: "/systemy-grzewcze",
         },
         {
             id: 4,
             title: "Termowizja",
             bg: Bg4,
+            icon: Icon4,
             link: "/termowizja",
         },
         {
             id: 5,
             title: "Detekcja gazu",
             bg: Bg5,
+            icon: Icon5,
             link: "/detekcja-gazu",
         },
         {
             id: 6,
             title: "Drzwi automatyczne",
             bg: Bg6,
+            icon: Icon6,
             link: "/drzwi-automatyczne",
         },
         {
             id: 7,
             title: "Instalacje alarmowe - monitoring",
             bg: Bg7,
+            icon: Icon7,
             link: "/instalacje-alarmowe",
         },
         {
             id: 8,
             title: "Ocena maszyn - wymagania BHP",
             bg: Bg8,
+            icon: Icon8,
             link: "/ocena-maszyn",
         },
         {
             id: 9,
             title: "Strony internetowe",
             bg: Bg9,
+            icon: Icon9,
             link: "/tworzenie-stron",
         },
     ]
