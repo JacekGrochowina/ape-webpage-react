@@ -22,6 +22,7 @@ import '../styles/main.css';
 /* Layouts */
 import Header from './Header';
 import Navigation from './Navigation';
+import Popup from '../components/Popup';
 import Page from './Page';
 import Footer from './Footer';
 
@@ -47,7 +48,9 @@ class App extends Component {
         <div className="app">
 
           {<Header />}
+          {<Popup />}
           {<Navigation />}
+
 
           <main>
             {<Page />}

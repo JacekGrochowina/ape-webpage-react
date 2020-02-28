@@ -1282,6 +1282,39 @@ hr {
   }
 }
 
+.popup {
+  background-color: #3fda85;
+  min-height: 65px;
+}
+
+.popup__container {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.popup__image {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  height: 65px;
+}
+
+.popup__text {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 15px;
+}
+
+.popup__h3 {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9em;
+  color: #1f412e;
+}
+
 .return-btn {
   display: inline-block;
   font-weight: "Raleway", sans-serif;

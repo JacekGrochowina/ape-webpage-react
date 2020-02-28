@@ -1,0 +1,27 @@
+//  Vars
+
+    $popupHeight: 65px;
+    $popupBackgroundColor: #3fda85;
+
+.popup {
+    background-color: $popupBackgroundColor;
+    min-height: $popupHeight;
+    &__container {
+        flex-wrap: nowrap;
+    }
+    &__image {
+        transform: translateY(-10px);
+        height: $popupHeight;
+    }
+    &__text {
+        align-items: center;
+        justify-content: center;
+        padding: 10px 15px;
+    }
+    &__h3 {
+        margin: 0;
+        font-family: $font_family;
+        font-size: 0.9em;
+        color: #1f412e;
+    }
+}
