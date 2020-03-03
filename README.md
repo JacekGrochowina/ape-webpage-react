@@ -2,7 +2,7 @@
 
 This website has been created using React. This is my first full functionality webpage which I created in framework React.
 
-# *WHAT I USED:question::grey_question:
+### *WHAT I USED:question::grey_question:
   * react-id-swiper - I use it on the HomePage. Sliders are generated automaticly using map method. When I add new object to array SERVICES_DATA this script will generate automatically new slide, new icon under About section, new tile on Offerts subpage
   * google-maps-react - I created Google Map using own map theme
   * react-router - when I add new object to array PORTFOLIO_DATA this script will generate new tile on subpage Realizations and new subpage automatically. It is very comfortable when I need add new realiation to portfolio, because all I have to do is add new object to array.
