@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import 'hamburgers/_sass/hamburgers/hamburgers.scss';
 
+// import startFromTop from '../startFromTop';
+
 import Logo from '../images/logo.svg';
 
 const navList = [
@@ -27,7 +29,7 @@ class Navigation extends Component {
         /* Generate list of links */
         const menu = navList.map(item => (
             <li key={item.name} className="nav__item">
-                <NavLink to={item.path} exact={item.exact ? item.exact : false} className="nav__link">{item.name}</NavLink>
+                <NavLink to={item.path} exact={item.exact ? item.exact : false} className="nav__link" onClick={this.startFromTop}>{item.name}</NavLink>
             </li>
         ))
 

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const ServicesPage = (props) => {
 
     const services = props.data.map(service => (
-        <NavLink to={service.link}
+        <NavLink to={service.link} key={service.id}
             className="wraper services__wraper col-4 col-6-lg col-12-sm"
             style={{ backgroundImage: `url(${service.bg})` }}>
             <div>

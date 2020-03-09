@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const ProjectsListPage = (props) => {
 
     const realizations = props.data.map(realization => (
-        <div className="wraper col-6 col-12-md">
+        <div className="wraper col-6 col-12-md" key={realization.id}>
             <div className="wraper projects__wraper ">
                 <div className="projects__image-wraper">
                     <img className="projects__image" src={realization.thumbnail} alt={realization.title} />

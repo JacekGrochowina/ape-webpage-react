@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Project = (props) => {
 
     const gallery = props.data[props.id - 1].images.map(e => (
-        <div className="project__wraper-img col-4 col-6-md col-12-sm">
+        <div className="project__wraper-img col-4 col-6-md col-12-sm" key={e}>
             <img className="project__img" src={e} alt={props.data[props.id - 1].title} />
         </div>
     ))
